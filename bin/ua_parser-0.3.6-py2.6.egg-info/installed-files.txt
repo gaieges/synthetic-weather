@@ -1,0 +1,14 @@
+../ua_parser/user_agent_parser_test.py
+../ua_parser/__init__.py
+../ua_parser/user_agent_parser.py
+../ua_parser/regexes.json
+../ua_parser/regexes.yaml
+../ua_parser/user_agent_parser_test.pyc
+../ua_parser/__init__.pyc
+../ua_parser/user_agent_parser.pyc
+./
+top_level.txt
+dependency_links.txt
+not-zip-safe
+PKG-INFO
+SOURCES.txt

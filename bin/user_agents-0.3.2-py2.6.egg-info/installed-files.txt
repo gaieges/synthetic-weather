@@ -1,0 +1,15 @@
+../user_agents/compat.py
+../user_agents/tests.py
+../user_agents/__init__.py
+../user_agents/parsers.py
+../user_agents/compat.pyc
+../user_agents/tests.pyc
+../user_agents/__init__.pyc
+../user_agents/parsers.pyc
+./
+top_level.txt
+dependency_links.txt
+not-zip-safe
+PKG-INFO
+SOURCES.txt
+requires.txt
