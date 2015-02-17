@@ -37,7 +37,7 @@ class Wunderground(unittest.TestCase):
 
     def test_wunderground(self):
         try:
-            self.trans.TransactionStart(self.driver, 'stamford-ziptest')
+            self.trans.TransactionStart(self.driver, 'wunderground-stamford-ziptest')
 
             driver = self.driver
             driver.get(self.base_url + "/")
@@ -53,7 +53,7 @@ class Wunderground(unittest.TestCase):
             driver.find_element_by_id("LayerWebcams_radio").click()
             driver.find_element_by_id("LayerRadarAnimGif_radio").click()
 
-            self.trans.TransactionEnd(self.driver, 'stamford-ziptest')
+            self.trans.TransactionEnd(self.driver, 'wunderground-stamford-ziptest')
         except Exception, e:
             self.trans.TransactionExcept(self.driver,e)
 

@@ -6,6 +6,7 @@ from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
 import unittest, time, re
+import os
 
 # needed for splunk stuff
 from splunktransactions import Transaction
@@ -21,7 +22,7 @@ class Weather(unittest.TestCase):
         fb = webdriver.firefox.firefox_binary.FirefoxBinary( log_file=lf )
 
         # shuts up annoying message at end that gets output as stderr
-        unittest.TextTestRunner( verbosity = 0 )
+        unittest.TextTestRunner( stream=open( os.devnull ) )
 
         self.driver = webdriver.Firefox( firefox_binary=fb, firefox_profile=fp )
         self.driver.implicitly_wait(30)
@@ -36,7 +37,7 @@ class Weather(unittest.TestCase):
     def test_stamford(self):
         try:
             driver = self.driver
-            self.trans.TransactionStart(self.driver, 'stamford-ziptest')
+            self.trans.TransactionStart(self.driver, 'weather.com-stamford-ziptest')
             driver.get(self.base_url + "/")
             driver.find_element_by_name("search").click()
             driver.find_element_by_name("search").clear()
@@ -53,14 +54,14 @@ class Weather(unittest.TestCase):
             driver.find_element_by_xpath("//div[@id='wx-local-wrap']/div[2]/div[3]/div/div/div/div/nav/ul/li[3]/a/span").click()
             driver.find_element_by_css_selector("a.linklist-default.default > span.ng-binding").click()
             self.assertEqual('Stamford, CT Weather', driver.find_element_by_css_selector("h1.ng-binding").text)
-            self.trans.TransactionEnd(self.driver, 'stamford-ziptest')
+            self.trans.TransactionEnd(self.driver, 'weather.com-stamford-ziptest')
         except Exception, e: 
             self.trans.TransactionExcept(self.driver,e)
 
     def test_poundridge(self):
         try:
             driver = self.driver
-            self.trans.TransactionStart(self.driver, 'poundridge-ziptest')
+            self.trans.TransactionStart(self.driver, 'weather.com-poundridge-ziptest')
             driver.get(self.base_url + "/")
             driver.find_element_by_name("search").click()
             driver.find_element_by_name("search").clear()
@@ -77,7 +78,7 @@ class Weather(unittest.TestCase):
             driver.find_element_by_xpath("//div[@id='wx-local-wrap']/div[2]/div[3]/div/div/div/div/nav/ul/li[3]/a/span").click()
             driver.find_element_by_css_selector("a.linklist-default.default > span.ng-binding").click()
             self.assertEqual("Pound Ridge, NY (10576) Weather", driver.find_element_by_css_selector("h1.ng-binding").text)
-            self.trans.TransactionEnd(self.driver, 'poundridge-ziptest')
+            self.trans.TransactionEnd(self.driver, 'weather.com-poundridge-ziptest')
         except Exception, e: 
             self.trans.TransactionExcept(self.driver,e)
  
