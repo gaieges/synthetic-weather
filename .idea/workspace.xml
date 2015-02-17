@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cc3debb9-34e8-49d5-aa1c-fd48afe3ed07" name="Default" comment="moving stuff around and adding new tests">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/android/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/selenium.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/synthetic-weather.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather.selenium-ide" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selenium-ide-src/wunderground.ide" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selenium-scripts/wunderground.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium-2.44.0-py2.6.egg-info/PKG-INFO" afterPath="$PROJECT_DIR$/selenium-scripts/selenium-2.44.0-py2.6.egg-info/PKG-INFO" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium-2.44.0-py2.6.egg-info/SOURCES.txt" afterPath="$PROJECT_DIR$/selenium-scripts/selenium-2.44.0-py2.6.egg-info/SOURCES.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium-2.44.0-py2.6.egg-info/dependency_links.txt" afterPath="$PROJECT_DIR$/selenium-scripts/selenium-2.44.0-py2.6.egg-info/dependency_links.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium-2.44.0-py2.6.egg-info/installed-files.txt" afterPath="$PROJECT_DIR$/selenium-scripts/selenium-2.44.0-py2.6.egg-info/installed-files.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium-2.44.0-py2.6.egg-info/not-zip-safe" afterPath="$PROJECT_DIR$/selenium-scripts/selenium-2.44.0-py2.6.egg-info/not-zip-safe" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium-2.44.0-py2.6.egg-info/top_level.txt" afterPath="$PROJECT_DIR$/selenium-scripts/selenium-2.44.0-py2.6.egg-info/top_level.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/__init__.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/common/__init__.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/common/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/common/exceptions.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/common/exceptions.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/selenium.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/selenium.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/__init__.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/android/__init__.py" afterPath="$PROJECT_DIR$/log/.gitkeep" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/android/webdriver.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/android/webdriver.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/chrome/__init__.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/chrome/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/chrome/options.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/chrome/options.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/chrome/service.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/chrome/service.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/chrome/webdriver.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/chrome/webdriver.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/common/__init__.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/common/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/common/action_chains.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/common/action_chains.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/common/alert.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/common/alert.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/common/by.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/common/by.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/common/desired_capabilities.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/common/desired_capabilities.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/common/html5/__init__.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/common/html5/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/common/html5/application_cache.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/common/html5/application_cache.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/common/keys.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/common/keys.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/common/proxy.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/common/proxy.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/common/touch_actions.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/common/touch_actions.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/common/utils.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/common/utils.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/firefox/__init__.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/firefox/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/firefox/amd64/x_ignore_nofocus.so" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/firefox/amd64/x_ignore_nofocus.so" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/firefox/extension_connection.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/firefox/extension_connection.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/firefox/firefox_binary.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/firefox/firefox_binary.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/firefox/firefox_profile.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/firefox/firefox_profile.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/firefox/webdriver.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/firefox/webdriver.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/firefox/webdriver.xpi" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/firefox/webdriver.xpi" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/firefox/webdriver_prefs.json" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/firefox/webdriver_prefs.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/firefox/x86/x_ignore_nofocus.so" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/firefox/x86/x_ignore_nofocus.so" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/ie/__init__.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/ie/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/ie/service.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/ie/service.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/ie/webdriver.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/ie/webdriver.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/opera/__init__.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/opera/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/opera/service.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/opera/service.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/opera/webdriver.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/opera/webdriver.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/phantomjs/__init__.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/phantomjs/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/phantomjs/service.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/phantomjs/service.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/phantomjs/webdriver.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/phantomjs/webdriver.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/remote/__init__.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/remote/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/remote/command.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/remote/command.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/remote/errorhandler.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/remote/errorhandler.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/remote/mobile.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/remote/mobile.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/remote/remote_connection.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/remote/remote_connection.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/remote/switch_to.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/remote/switch_to.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/remote/utils.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/remote/utils.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/remote/webdriver.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/remote/webdriver.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/remote/webelement.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/remote/webelement.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/safari/__init__.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/safari/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/safari/service.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/safari/service.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/safari/webdriver.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/safari/webdriver.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/support/__init__.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/support/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/support/abstract_event_listener.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/support/abstract_event_listener.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/support/color.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/support/color.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/support/event_firing_webdriver.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/support/event_firing_webdriver.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/support/events.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/support/events.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/support/expected_conditions.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/support/expected_conditions.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/support/select.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/support/select.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/support/ui.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/support/ui.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/selenium/webdriver/support/wait.py" afterPath="$PROJECT_DIR$/selenium-scripts/selenium/webdriver/support/wait.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/splunktransactions.py" afterPath="$PROJECT_DIR$/selenium-scripts/splunktransactions.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/ua_parser-0.3.6-py2.6.egg-info/PKG-INFO" afterPath="$PROJECT_DIR$/selenium-scripts/ua_parser-0.3.6-py2.6.egg-info/PKG-INFO" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/ua_parser-0.3.6-py2.6.egg-info/SOURCES.txt" afterPath="$PROJECT_DIR$/selenium-scripts/ua_parser-0.3.6-py2.6.egg-info/SOURCES.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/ua_parser-0.3.6-py2.6.egg-info/dependency_links.txt" afterPath="$PROJECT_DIR$/selenium-scripts/ua_parser-0.3.6-py2.6.egg-info/dependency_links.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/ua_parser-0.3.6-py2.6.egg-info/installed-files.txt" afterPath="$PROJECT_DIR$/selenium-scripts/ua_parser-0.3.6-py2.6.egg-info/installed-files.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/ua_parser-0.3.6-py2.6.egg-info/not-zip-safe" afterPath="$PROJECT_DIR$/selenium-scripts/ua_parser-0.3.6-py2.6.egg-info/not-zip-safe" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/ua_parser-0.3.6-py2.6.egg-info/top_level.txt" afterPath="$PROJECT_DIR$/selenium-scripts/ua_parser-0.3.6-py2.6.egg-info/top_level.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/ua_parser/__init__.py" afterPath="$PROJECT_DIR$/selenium-scripts/ua_parser/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/ua_parser/regexes.json" afterPath="$PROJECT_DIR$/selenium-scripts/ua_parser/regexes.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/ua_parser/regexes.yaml" afterPath="$PROJECT_DIR$/selenium-scripts/ua_parser/regexes.yaml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/ua_parser/user_agent_parser.py" afterPath="$PROJECT_DIR$/selenium-scripts/ua_parser/user_agent_parser.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/ua_parser/user_agent_parser_test.py" afterPath="$PROJECT_DIR$/selenium-scripts/ua_parser/user_agent_parser_test.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/user_agents-0.3.2-py2.6.egg-info/PKG-INFO" afterPath="$PROJECT_DIR$/selenium-scripts/user_agents-0.3.2-py2.6.egg-info/PKG-INFO" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/user_agents-0.3.2-py2.6.egg-info/SOURCES.txt" afterPath="$PROJECT_DIR$/selenium-scripts/user_agents-0.3.2-py2.6.egg-info/SOURCES.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/user_agents-0.3.2-py2.6.egg-info/dependency_links.txt" afterPath="$PROJECT_DIR$/selenium-scripts/user_agents-0.3.2-py2.6.egg-info/dependency_links.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/user_agents-0.3.2-py2.6.egg-info/installed-files.txt" afterPath="$PROJECT_DIR$/selenium-scripts/user_agents-0.3.2-py2.6.egg-info/installed-files.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/user_agents-0.3.2-py2.6.egg-info/not-zip-safe" afterPath="$PROJECT_DIR$/selenium-scripts/user_agents-0.3.2-py2.6.egg-info/not-zip-safe" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/user_agents-0.3.2-py2.6.egg-info/requires.txt" afterPath="$PROJECT_DIR$/selenium-scripts/user_agents-0.3.2-py2.6.egg-info/requires.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/user_agents-0.3.2-py2.6.egg-info/top_level.txt" afterPath="$PROJECT_DIR$/selenium-scripts/user_agents-0.3.2-py2.6.egg-info/top_level.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/user_agents/__init__.py" afterPath="$PROJECT_DIR$/selenium-scripts/user_agents/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/user_agents/compat.py" afterPath="$PROJECT_DIR$/selenium-scripts/user_agents/compat.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/user_agents/parsers.py" afterPath="$PROJECT_DIR$/selenium-scripts/user_agents/parsers.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/user_agents/tests.py" afterPath="$PROJECT_DIR$/selenium-scripts/user_agents/tests.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/weather.py" afterPath="$PROJECT_DIR$/selenium-scripts/weather.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/inputs.conf" afterPath="$PROJECT_DIR$/local/inputs.conf" />
+    </list>
+    <ignored path="synthetic-weather.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="synthetic-weather" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="weather.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/selenium-scripts/weather.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-1.5324675" vertical-offset="1139" max-vertical-offset="1755">
+                  <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+                  <folding>
+                    <element signature="e#24#54#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="splunktransactions.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/selenium-scripts/splunktransactions.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+                  <caret line="33" column="578" selection-start-line="33" selection-start-column="578" selection-end-line="33" selection-end-column="578" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="wunderground.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/selenium-scripts/wunderground.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.073051944" vertical-offset="315" max-vertical-offset="1395">
+                  <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+                  <folding>
+                    <element signature="e#24#54#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="selenium-python-executor.sh" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bin/selenium-python-executor.sh">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="inputs.conf" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/local/inputs.conf">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+                  <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="evin" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bin/splunktransactions.py" />
+        <option value="$PROJECT_DIR$/weather.py" />
+        <option value="$PROJECT_DIR$/bin/wunderground.py" />
+        <option value="$PROJECT_DIR$/bin/weather.py" />
+        <option value="$PROJECT_DIR$/local/inputs.conf" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
+    <option name="y" value="22" />
+    <option name="width" value="1676" />
+    <option name="height" value="1028" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="synthetic-weather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="synthetic-weather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="synthetic-weather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="synthetic-weather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="synthetic-weather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium-scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="synthetic-weather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="synthetic-weather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium-ide-src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="synthetic-weather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="synthetic-weather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="synthetic-weather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="synthetic-weather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="synthetic-weather">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="synthetic-weather">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="bin">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/selenium-scripts" />
+      <recent name="$PROJECT_DIR$/log" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests in Weather">
+    <configuration default="false" name="Unittests in weather" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="synthetic-weather" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/selenium-scripts/weather.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest Weather.test_stamford" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="synthetic-weather" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/selenium-scripts/weather.py" />
+      <option name="CLASS_NAME" value="Weather" />
+      <option name="METHOD_NAME" value="test_stamford" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest Weather.test_poundridge" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="synthetic-weather" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/selenium-scripts/weather.py" />
+      <option name="CLASS_NAME" value="Weather" />
+      <option name="METHOD_NAME" value="test_poundridge" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest Wunderground.test_wunderground" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="synthetic-weather" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/selenium-scripts/wunderground.py" />
+      <option name="CLASS_NAME" value="Wunderground" />
+      <option name="METHOD_NAME" value="test_wunderground" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in Weather" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/selenium-scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="synthetic-weather" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/selenium-scripts/weather.py" />
+      <option name="CLASS_NAME" value="Weather" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="synthetic-weather" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="synthetic-weather" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="synthetic-weather" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="synthetic-weather" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="synthetic-weather" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="synthetic-weather" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in weather" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Weather.test_stamford" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Weather.test_poundridge" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Wunderground.test_wunderground" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in Weather" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in Weather" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Wunderground.test_wunderground" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Weather.test_poundridge" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Weather.test_stamford" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in weather" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc3debb9-34e8-49d5-aa1c-fd48afe3ed07" name="Default" comment="" />
+      <created>1424126800830</created>
+      <option name="number" value="Default" />
+      <updated>1424126800830</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="4" y="22" width="1676" height="1028" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20883055" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23879041" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32846716" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962587" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/selenium-scripts/weather.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/selenium-scripts/weather.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/selenium-scripts/wunderground.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="13" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/selenium-scripts/weather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1740">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-scripts/splunktransactions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="660">
+          <caret line="33" column="578" selection-start-line="33" selection-start-column="578" selection-end-line="33" selection-end-column="578" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-scripts/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5256" max-vertical-offset="12375">
+          <caret line="373" column="0" selection-start-line="373" selection-start-column="0" selection-end-line="373" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-scripts/selenium/webdriver/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="524">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31181103" vertical-offset="4557" max-vertical-offset="16035">
+          <caret line="330" column="0" selection-start-line="330" selection-start-column="0" selection-end-line="330" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26254377" vertical-offset="0" max-vertical-offset="857">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather.selenium-ide">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="857">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/selenium.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.29521587" vertical-offset="253" max-vertical-offset="1110">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-scripts/splunktransactions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <caret line="33" column="578" selection-start-line="33" selection-start-column="578" selection-end-line="33" selection-end-column="578" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/selenium-python-executor.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/inputs.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-scripts/weather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5324675" vertical-offset="1139" max-vertical-offset="1755">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <element signature="e#24#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-scripts/wunderground.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.073051944" vertical-offset="315" max-vertical-offset="1395">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="e#24#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
