@@ -1,6 +1,6 @@
 #!/bin/bash
 
-seleniumtest=$(dirname $0)/$1
+seleniumtest=$1
 
 if ! [ -f $seleniumtest ]; then
   >&2 echo "file not found: $seleniumtest" && exit 1

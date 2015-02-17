@@ -16,7 +16,7 @@ class Wunderground(unittest.TestCase):
         fp = webdriver.FirefoxProfile()
         fp.set_preference( "browser.download.folderList", 2 )
 
-        lf = open('../log/selenium.log', 'w')
+        lf = open('/tmp/selenium.log', 'w')
         fb = webdriver.firefox.firefox_binary.FirefoxBinary( log_file=lf )
 
         # shuts up annoying message at end that gets output as stderr
