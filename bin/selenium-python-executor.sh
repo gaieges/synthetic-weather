@@ -11,4 +11,4 @@ if ! pgrep Xvfb >/dev/null ; then
   /usr/bin/Xvfb $DISPLAY &> /var/log/Xvfb.log &
 fi
 
-python $seleniumtest #2> /dev/null
+flock /var/run/selenium-python-executor.lock python $seleniumtest #2> /dev/null
